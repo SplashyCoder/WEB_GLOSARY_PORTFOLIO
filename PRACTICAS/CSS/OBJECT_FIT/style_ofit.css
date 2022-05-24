@@ -1,0 +1,35 @@
+div {
+  display: inline-block;
+  background-color: black;
+}
+.img1 {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border: 10px inset lawngreen;
+  object-fit: contain;
+}
+
+.img2 {
+  display: flex;
+  height: 250px;
+  width: 250px;
+  border: 10px outset lime;
+  object-fit: cover;
+}
+
+.img3 {
+  display: flex;
+  height: 150px;
+  width: 550px;
+  border: 10px solid turquoise;
+  object-fit: none;
+}
+
+.img4 {
+  display: flex;
+  height: 50px;
+  width: 150px;
+  border: 10px double red;
+  object-fit: scale-down;
+}

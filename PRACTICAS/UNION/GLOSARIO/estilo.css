@@ -1,0 +1,52 @@
+* {
+  font-family: "Handlee", cursive;
+}
+body {
+  background: turquoise;
+}
+h1 {
+  color: orangered;
+}
+h4 {
+  color: cornsilk;
+}
+.navegacion {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.bordes b {
+  display: inline-block;
+  background: purple;
+  margin: 10px;
+}
+
+.dashed {
+  outline: 5px dashed crimson;
+}
+.dotted {
+  outline: 5px dotted crimson;
+}
+.double {
+  outline: 5px double crimson;
+}
+.groove {
+  outline: 5px groove crimson;
+}
+
+.inset {
+  outline: 5px inset crimson;
+}
+
+.outset {
+  outline: 5px outset crimson;
+}
+.ridge {
+  outline: 5px ridge crimson;
+}
+.solid {
+  outline: 5px solid crimson;
+}
+.transparent {
+  outline: 5px transparent crimson;
+}

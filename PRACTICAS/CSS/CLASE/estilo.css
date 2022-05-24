@@ -1,0 +1,83 @@
+/**/
+* {
+  font-family: "Zen Loop", cursive; /* fuente que va a usar la pagina tomada de google fonts*/
+  font-size: 30px; /*tamaño de la fuente*/
+  border-radius: 5px; /*cantidad de bordeado de las esquinas*/
+  /* background-color: palegreen;  color del fondo  */
+}
+h1 {
+  background-color: #a22;
+}
+h2 {
+  background-color: #a22;
+  height: 100px;
+  width: 8;
+  display: inline-block; /*transforma un bloque completo en uno que se acopla a su texto*/
+  padding: 100 px;
+  /*distancia etre el texto y los bordes de la caja.
+  Un solo dato le da un valor a todos los ejes
+  Dos datos le dan valores a X y Y
+  Cuatro datos le dan valores a Y,X,-Y,-X en ese orden*/
+
+  box-sizing: border-box; /*mantiene la caja de un solo tamaño*/
+  text-align: center; /*alinea el texto en el centro*/
+  margin: 100pxs;
+  /*distancia etre dos cajas.
+  Un solo dato le da un valor a todos los ejes
+  Dos datos le dan valores a X y Y
+  Cuatro datos le dan valores a Y,X,-Y,-X en ese orden*/
+
+  border: 5px solid blue;
+  /*le da valores a el borde de la caja
+  primero el grosor, el estilo o tipo de borde, el color */
+
+  box-shadow: 0px 0px 0px 0px #000;
+  /*sombra de una caja.
+  desplazamiento en X,desplazamiento en Y,difuminado o tamaño de la sombra, borde de la sombra
+  si se duplica el efecto se hace mas notorio*/
+  text-shadow: 10px 5px 15px #aac;
+  /*sombra del texto.
+  desplazamiento en X,desplazamiento en Y,difuminado o tamaño de la sombra
+  si se duplica el efecto se hace mas notorio*/
+  transform: rotate(
+    0deg
+  ); /*rota la caja la cantidad de grados en el parentesis*/
+
+  /*la diferencia entre Border y outline es que 
+  Border puede tomar los bordes de la caja y restarlos como tal del tamaño total de la caja
+    afectando a la distribucion de la pagina 
+  Outline muestra los bordes en pantalla pero no afecta a la distribucion de la pagina*/
+}
+div {
+  display: block;
+  position: absolute;
+  background-color: yellow;
+}
+
+.cuadrado {
+  border: 4px solid red;
+  margin: 50px auto;
+  width: 450px;
+  height: 450px;
+  position: relative;
+  top: 250px;
+}
+div div {
+  width: 100px;
+  height: 100px;
+  background: springgreen;
+  position: absolute;
+}
+.caja1 {
+  right: 0;
+  bottom: 0;
+}
+.caja2 {
+  right: 0;
+}
+.caja3 {
+  top: 0;
+}
+.caja4 {
+  bottom: 0;
+}

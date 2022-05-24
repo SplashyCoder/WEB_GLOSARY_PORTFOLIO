@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row gx-2    ">
+            <div class="col-4 bg-primary border">
+                <div class="bg-light border">Texto</div>
+            </div>
+            <div class="col-4 bg-primary border">
+                <div class="bg-light border">Texto</div>
+            </div>
+            <div class="col-4 bg-primary border">
+                <div class="bg-light border">Texto</div>
+            </div>
+            <div class="col-4 bg-primary border">
+                <div class="bg-light border">Texto</div>
+            </div>
+            <div class="col-4 bg-primary border">
+                <div class="bg-light border">Texto</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="float-start border">Izq</div>
+        <div class="float-end border">Drc</div>
+    </div><br>
+    <div class="container">
+        <div class="bg-primary text-white"></div>
+        <div class="bg-success text-white"></div>
+        <div class="bg-danger text-white"></div>
+        <div class="bg-light"></div>
+        <div class="bg-warning text-white"></div>
+        <div class="bg-info text-white"></div>
+        <div class="bg-dark text-white"></div>
+        <div class="bg-trasparent "></div>
+    </div>
+    <script>
+        let divs = document.querySelectorAll(".container div");
+        for( i=0; i< divs.length; i++ )
+        {
+            var div = divs[i];
+            div.innerHTML=div.className;
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>   
+</body>
+</html>

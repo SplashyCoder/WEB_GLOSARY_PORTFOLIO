@@ -1,0 +1,40 @@
+* {
+  font-family: "Indie Flower", cursive;
+}
+body {
+  background: teal;
+}
+.cajas_block b {
+  display: block;
+  border: 4px solid yellow;
+  background: red;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+.cajas_inline b {
+  display: inline;
+  border: 4px solid yellow;
+  background: red;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+.cajas_inline_block b {
+  display: inline-block;
+  border: 4px solid yellow;
+  background: red;
+  height: 450px;
+  width: 190px;
+  margin: 20px;
+}
+.overflow p {
+  display: inline-block;
+  border: 10px outset yellow;
+  background: red;
+  margin: 20px;
+  height: 250px;
+  width: 250px;
+  overflow: auto;
+}

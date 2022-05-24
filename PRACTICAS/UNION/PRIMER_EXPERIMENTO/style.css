@@ -1,0 +1,99 @@
+* {
+  font-weight: 100;
+  font-size: 30px;
+  border-radius: 5px;
+}
+div {
+  display: block;
+  position: absolute;
+  background-color: cyan;
+}
+.inicio h1 {
+  background-color: red;
+  font-size: 30px;
+  text-align: center;
+}
+.inicio h2 {
+  background-color: red;
+  display: inline-block;
+  border: 4px solid blue;
+  margin: 10pxq;
+}
+.relative div {
+  height: 100px;
+  width: 100px;
+  background-color: cyan;
+}
+.titulo_relative h3 {
+  position: absolute;
+  top: 350px;
+  text-align: center;
+  background-color: purple;
+}
+.relative {
+  position: relative;
+  border: 4px solid red;
+  margin: 50px auto;
+  width: 450px;
+  height: 450px;
+  background-color: yellow;
+  top: 450px;
+}
+.caja1_relative {
+  right: 0;
+  bottom: 0;
+}
+.caja2_relative {
+  right: 0;
+}
+.caja3_relative {
+  top: 0;
+}
+.caja4_relative {
+  bottom: 0;
+}
+.caja5_relative {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.titulo_absolute h3 {
+  position: absolute;
+  top: 550px;
+  text-align: center;
+  background-color: purple;
+}
+.absolute {
+  position: relative;
+  border: 4px ridge turquoise;
+  margin: 50px auto;
+  width: 450px;
+  height: 550px;
+  background-color: springgreen;
+  top: 650px;
+}
+.absolute div {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  margin: 5px;
+}
+.fixed h3 {
+  position: fixed;
+  background-color: purple;
+  top: 30px;
+  right: 60px;
+}
+.sticky {
+  position: relative;
+  top: 600px;
+}
+.sticky h3 {
+  position: sticky;
+  background-color: purple;
+  top: 0px;
+}

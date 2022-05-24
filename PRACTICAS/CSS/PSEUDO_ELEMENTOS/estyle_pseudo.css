@@ -1,0 +1,93 @@
+* {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 100px;
+  font-size: 60px;
+}
+body {
+  background-color: crimson;
+}
+.Editar {
+  padding: 20px;
+  color: aliceblue;
+}
+.Editar p::first-letter {
+  color: teal;
+  font-size: 200px;
+}
+.Editar p::first-line {
+  color: black;
+}
+form {
+  margin: 20px auto;
+  display: block;
+  background-color: springgreen;
+  padding: 50px;
+  width: 50%;
+}
+input {
+  padding: 6px;
+  width: 100%;
+}
+input::placeholder {
+  color: yellow;
+  margin: 10px;
+}
+input::selection {
+  color: navy;
+  background: violet;
+}
+.After p {
+  padding: 6px;
+  margin: 50px auto;
+  width: 100%;
+  outline: 10px dotted saddlebrown;
+  color: aliceblue;
+  text-align: center;
+}
+.After p::before {
+  content: "Vamos";
+}
+.After p::after {
+  content: "Holanda";
+}
+
+.Over input {
+  padding: auto;
+  width: auto;
+  outline: 10px outset royalblue;
+  color: #000;
+  background: tomato;
+}
+.Over input:hover {
+  padding: 50px;
+  background: turquoise;
+  color: violet;
+}
+.Active p {
+  height: 250px;
+  width: 250px;
+  background: crimson;
+  margin: 30px 0;
+  border: 5px solid teal;
+  overflow: auto;
+}
+.Active p:active {
+  width: 500px;
+  background: yellow;
+}
+.Focus input {
+  width: 150px;
+  background: slategray;
+  color: #000;
+}
+.Focus input:focus {
+  width: 250px;
+  background: navy;
+  color: #fff;
+}
+.Lang:lang(en) {
+  background: royalblue;
+}
+.Español :lang(es) {
+  background: tomato;
+}

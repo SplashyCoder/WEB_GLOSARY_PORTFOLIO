@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- indica que la web admite todo tipo de simbolos -->
+    <meta charset="UTF-8">
+    <title>GLOSARIO MAXIMO</title>
+    <link rel="icon" href="C:\Users\david\Documentos\PROGRAMACION\WEB\PRACTICAS\MULTIMEDIA\pngegg.ico">
+</head>
+<body>
+    <h1>GLOSARIO MAXIMO Y MAGICO</h1>
+    <div>
+        <article>
+            <section>
+                <header>
+                    <nav>
+                        <select name="paginas"  onchange="window.location.href=this.value" target="_blank">
+                            <option value="">GLOSARIO</option>
+                            <optgroup>
+                                <option value="file:///C:/Users/david/Documentos/PROGRAMACION/WEB/XPRESS/index.html">Inicio</option>
+                                <option value="file:///C:/Users/david/Documentos/PROGRAMACION/WEB/PRACTICAS/HTML/PRIMERA_PAG/index.html">Primera pagina</option>
+                                <option value="file:///C:/Users/david/Documentos/PROGRAMACION/WEB/PRACTICAS/HTML/SEGUNDA_PAG_Eh4URA_DE_PAGS/index.html">Segunda pagina</option>
+                                <option value="file:///C:/Users/david/Documentos/PROGRAMACION/WEB/PRACTICAS/HTML/LISTAS_MULTIMEDIA_DIVS/index.html">Listas, Divs y Multimedia</option>
+                                <option value="file:///C:/Users/david/Documentos/PROGRAMACION/WEB/PRACTICAS/HTML/FORMULARIOS/index.html">Formularios</option>
+                                <option value="file:///C:/Users/david/Documentos/PROGRAMACION/WEB/PRACTICAS/HTML/TABLAS_REPASO/index.html">Tablas y repaso</option>
+                                <option value="C:\Users\david\Documentos\PROGRAMACION\WEB\PRACTICAS\HTML\EJERCICIOS\index.html">Ejercicios</option>
+                            </optgroup>
+                        </select>
+                    </nav>
+                </header>
+            </section>
+        </article>   
+    </div>
+    <div>
+        <h1>HTML</h1>
+        <h2>Etiquetas</h2>
+        <i>Los '*' no se usan</i><br>
+        <h4>Eh4ura de etuquieta</h4>
+        <br>
+        <form>
+            <output><*etiqueta atributo = "valor" ><*etiqueta></output>
+        </form>
+        <br>
+        <h4>Ejemplo de etiqueta</h4>
+        <br>
+        <form>
+            <output><*boton color="verde"><*/boton></output>
+        </form>
+        <br>
+        <h4>Etiqueta que solo se abre</h4>
+        <P>
+            Una etiqueta que solo se abre normalmente es para dar una orden simple
+            Etiqueta para dar un salto de linea<*br> <br> 
+            
+        </P>
+        <br>
+        <h4>Etiqueta que se abre y se cierra</h4>
+        <br>
+        <p>
+            Esta clase de etiquetas lleva una orden compleja por dentro y son para darle orden a la pagina
+        </p>
+        <h1>tipos de titulos 'h1'</h1>
+        <h2>tipos de titulos 'h2'</h2>
+        <h3>tipos de titulos 'h3'</h3>
+        <h4>tipos de titulos 'h4'</h4>
+        <h5>tipos de titulos 'h5'</h5>
+        <h6>tipos de titulos 'h6'</h6>
+    </div>
+    <div>
+        <h2>Tipos de letra</h2>
+        <i>Itlica</i><br>
+        <h4>Tachada</h4><br>
+        <small>Pequena</small><br>
+    </div>
+    <div>
+        <h2>links tanto online como offline</h2>
+        <h4>link online que abre una pagina en la misma pestaña</h4><br>
+        <a href="https://Google.com">Haga click aqui para cambiar desde esta pestana y entrar a Google</a><br>
+        <h4>
+            link online que abre una pestaña nueva con la pagina que seleccionamos
+        </h4><br>
+        <a href="https://Google.com" target = "|_blank">Haga click aqui para abrir otra pestana y entrar a Google</a>
+    </div>
+    <div>
+        <h2>Listas</h2>
+            <h4>ul lista desordenada </h4><br>
+            <form">
+                <output>
+                    <*ul> <br>
+                        <i>li es el espacio de cada renglon</i> <br>
+                        <*li><*/li> <br>
+                    <*/ul> 
+                </output>
+            </form> <br>
+            <h4>ol lista desordenada </h4><br>
+            <form">
+                <output>
+                    <*ol>    <br>
+                        <i>li es el espacio de cada renglon</i><br>
+                        <*li><*/li><br>
+                    <*/ol> <br>
+                </output>
+            </form>
+    </div>
+    <div>
+        <h2>Multimedia</h2>
+        <h4>Imagenes</h4>
+            <form action="">
+                <output>
+                    <*audio src=""><*/audio>
+                </output>
+            </form>
+        <h4>Audio</h4>
+        <form action="">
+            <output>
+                <*audio src=""><*/audio>
+            </output>
+        </form>
+        <h4>Video</h4>
+        <form action="">
+            <output>
+                <*video src=""><*/video>
+            </output>
+        </form>
+    </div>
+    <div>
+        <h2>Metadatos</h2>
+    <p> 
+        Datos en backend que describen la pagina para que se asocie con el buscador
+    </p>
+    <form action="">
+        <output>
+            <ul>
+                <li>palabras clave para que el buscador asocie la pagina con las busquedas<*meta charset="uft-8"></li>
+                <li><*meta name="keywords"contnet="harina,pan,huevos,leche"></li>
+                <li><*meta name="description" content="Esta pagina web está afiliada a Tienda.sa una tienda de viveres completamente nueva y lista para satisfacer sus necesidades post pandemia"></li>
+                <li><*meta name="author" content="David Pacheco"></li>
+                <li><*meta name="copright" content="Tienda.sa"></li>
+                <li>sirve para que los buscadores sean capces de ver la pagina, en caso de no querer que la vean se pone 'noindex' <br> <*meta name = "robots" content="index"></li>
+            </ul>
+        </output>
+    </form>    
+    </div>
+    <div>
+        <h2>Formularios</h2>
+        <p>son un conjunto de simbolos con los que el usuario interactua para enviar informacion al servidor y que esta la procese</p>
+        <h4>Eh4ura de Formulario</h4>
+            <form action="">
+                <output>
+                    form<*input type="text" name="">
+                </output>
+            </form>
+       <h4>Ejemplo de Formulario</h4>
+            <form action="">
+                <output> 
+                    <*input type="text"name="nombre y apellido">
+                </output>
+            </form>
+    </div>
+    <div>
+        <article>
+            <section>
+                <h2>CSS</h2>
+                <h3>Selectores</h3>
+                <h4>Estructura</h4>
+                    <p>
+                        'selector'{ <br>
+                            atributo: value <br>
+                        }
+                    </p>
+                <h4>Slector global</h4>
+                <p>
+                    # Con este los cambios afectan a todo el codigo
+                    *{ <br>
+                        atributo: value <br>
+                    }
+                </p>
+                <h4>Selector de tipo</h4>
+                <p>
+                    # Con este los cambios afectan a todas las etiquetas de cierto tipo
+                    h2{ <br>
+                        atributo: value <br>
+                    }
+                </p>
+                <h4>Selector de clase</h4>
+                <p>
+                    #Con este los cambios afectan a todas las etiquetas que tengan el atributo 'class' y que ademas dicha clase tenga el mismo nombre
+                    .class { <br>
+                        atributo: value <br>
+                    }
+                </p>
+                <h4>Selector de id </h4>
+                <p>
+                    # Con este los cambios afectan solo a la etiqueta con cierto id
+                    #id{ <br>
+                        atributo: value<br>
+                    }
+                </p>
+                <h4>Selector de atributo</h4>
+                <p>
+                    # Con este los cambios afectan a todas las etiquetas con cierto atributo
+                    [atributo]{ <br>
+                        atributo: value <br>
+                    }
+                </p>
+                <h3>Box model</h3>
+                <h4>Content</h4>
+                <p>
+                    Es el contenido de la caja
+                </p>
+                <h4>Padding</h4>
+                <p>
+                    padding: 100 px;
+                    distancia etre el texto y los bordes de la caja.
+                    Un solo dato le da un valor a todos los ejes
+                    Dos datos le dan valores a X y Y
+                    Cuatro datos le dan valores a Y,X,-Y,-X en ese orden
+                    sin embargo se puede añadir otros detalles con atributos que van despues de los dos puntos
+                </p>
+                <h4>Border</h4>
+                <p>
+                    border: 5px solid blue;
+                    le da valores a el borde de la caja
+                    primero el grosor, el estilo o tipo de borde, el color
+                    sin embargo se puede añadir otros detalles con atributos que van despues de los dos puntos
+                </p>
+                <h4>Marging</h4>
+                <p>
+                    margin: 100pxs;
+                    /*distancia etre dos cajas.
+                    Un solo dato le da un valor a todos los ejes
+                    Dos datos le dan valores a X y Y
+                    Cuatro datos le dan valores a Y,X,-Y,-X en ese orden*/
+                    sin embargo se puede añadir otros detalles con atributos que van despues de los dos puntos
+                </p>
+                <h4>Nota</h4>
+                <p>
+                    la diferencia entre Border y outline es que 
+                    Border puede tomar los bordes de la caja y restarlos como tal del tamaño total de la caja
+                    afectando a la distribucion de la pagina 
+                    Outline muestra los bordes en pantalla pero no afecta a la distribucion de la pagina
+                </p>
+            </section>
+        </article>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
